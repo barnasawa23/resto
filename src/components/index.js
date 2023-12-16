@@ -1,0 +1,10 @@
+export { default as About } from './about/About';
+export { default as Hero } from './hero/Hero';
+export { default as Menu } from './menu/Menu';
+export { default as Navbar } from './nav/Navbar';
+export { default as Newsletter } from './newsletter/Newsletter';
+export { default as Reservation } from './reservation/Reservation';
+export { default as Socials } from './socials/Socials';
+export { default as Copyright } from './copyright/Copyright';
+export { default as Team } from './team/Team';
+export { default as Testimonials } from './testimonials/Testimonials';
