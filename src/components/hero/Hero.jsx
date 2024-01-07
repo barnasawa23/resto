@@ -6,6 +6,7 @@ import Header from '../../common/header/Header';
 import { motion } from 'framer-motion';
 
 import { fadeIn, staggerContainer } from '../../variants';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
@@ -52,11 +53,17 @@ const Hero = () => {
               className='flex flex-col sm:flex-row gap-4'
             >
               <button className='btn'>
-                {btnText}
+                <Link to="/">
+                  {btnText}
+                </Link>
               </button>
+
               <button className='btn2'>
-                {btnText2}
+                <Link to="https://mthresto.netlify.app">
+                  {btnText2}
+                </Link>
               </button>
+
             </motion.div>
 
           </motion.div>
