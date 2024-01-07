@@ -131,7 +131,7 @@ import {
   export const reservationData = {
     title: 'booking form',
     subtitle:
-      'Call (+257) 799-60126 from 5AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.',
+      'Call (+257) 799-60126 from 5AM - 11PM daily, or book online with OpenTable. Reservations required for parties of 6 or more.',
     modelImg: ModelBlackImg,
     btnText: 'make a reservation',
   };
@@ -146,7 +146,7 @@ import {
   export const footerData = {
     contact: {
       title: 'contact location',
-      address: 'Rumonge road, Mutambara, RN3',
+      address: 'Rumonge, Mutambara, RN3',
       phone: '(+257) 7996-0216',
     },
     hours: {
