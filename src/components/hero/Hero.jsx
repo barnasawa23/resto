@@ -49,6 +49,7 @@ const Hero = () => {
             {/* button */}
             <motion.div
               variants={fadeIn('down', 'tween', 0.5, 1.1)}
+              className='flex flex-col sm:flex-row gap-4'
             >
               <button className='btn'>
                 {btnText}
