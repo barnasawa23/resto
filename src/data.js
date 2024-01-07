@@ -7,7 +7,7 @@ import {
   } from 'react-icons/fa';
   import { FaXTwitter } from 'react-icons/fa6';
   // import images
-  import AboutImg from '../src/assets/img/about/plate.png';
+  import AboutImg from '../src/assets/img/about/plate1.png';
   import ModelWhiteImg from '../src/assets/img/model-white.png';
   import ModelBlackImg from '../src/assets/img/model-black.png';
   import MenuImg1 from '../src/assets/img/menu/1.png';
