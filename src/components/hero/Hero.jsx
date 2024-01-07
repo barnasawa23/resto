@@ -54,7 +54,7 @@ const Hero = () => {
               <button className='btn'>
                 {btnText}
               </button>
-              <button className='btn'>
+              <button className='btn2'>
                 {btnText2}
               </button>
             </motion.div>

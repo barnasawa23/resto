@@ -30,6 +30,10 @@ module.exports = {
           DEFAULT: '#fe7634',
           hover: '#F55304',
         },
+        blue: {
+          DEFAULT: '#299588',
+          hover: '#006861',
+        },
       },
       backgroundImage: {
         pattern: "url('assets/img/body-bg-pattern.png')",
