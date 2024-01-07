@@ -10,7 +10,7 @@ import { fadeIn, staggerContainer } from '../../variants';
 const Hero = () => {
 
   // destructure a herodata
-  const { pretitle, title, subtitle, btnText } = heroData;
+  const { pretitle, title, subtitle, btnText, btnText2 } = heroData;
   return (
     <>
       <section className='min-h-[980px] bg-hero bg-cover bg-right'>
@@ -52,6 +52,9 @@ const Hero = () => {
             >
               <button className='btn'>
                 {btnText}
+              </button>
+              <button className='btn'>
+                {btnText2}
               </button>
             </motion.div>
 
