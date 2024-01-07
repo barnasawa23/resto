@@ -3,9 +3,9 @@ import {
     FaYoutube,
     FaFacebookF,
     FaInstagram,
-    FaPinterestP,
-    FaDiscord,
+    FaGlobe,
   } from 'react-icons/fa';
+  import { FaXTwitter } from 'react-icons/fa6';
   // import images
   import AboutImg from '../src/assets/img/about/plate.png';
   import ModelWhiteImg from '../src/assets/img/model-white.png';
@@ -15,7 +15,7 @@ import {
   import MenuImg3 from '../src/assets/img/menu/3.png';
   import MenuImg4 from '../src/assets/img/menu/4.png';
   import SignatureImg from '../src/assets/img/team/signature.png';
-  import ChefImg from '../src/assets/img/team/chef.png';
+  import ChefImg from '../src/assets/img/team/chef2.png';
   import Avatar1 from '../src/assets/img/testimonial/avatar1.png';
   import Avatar2 from '../src/assets/img/testimonial/avatar2.png';
   import Avatar3 from '../src/assets/img/testimonial/avatar3.png';
@@ -42,8 +42,8 @@ import {
     { href: '/', icon: <FaYoutube /> },
     { href: '/', icon: <FaFacebookF /> },
     { href: '/', icon: <FaInstagram /> },
-    { href: '/', icon: <FaPinterestP /> },
-    { href: '/', icon: <FaDiscord /> },
+    { href: '/', icon: <FaGlobe /> },
+    { href: '/', icon: <FaXTwitter /> },
   ];
   
   export const aboutData = {
@@ -93,7 +93,7 @@ import {
     title: 'meet our chef',
     sub1: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.',
     sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
-    name: 'sara peter',
+    name: 'Mandela',
     occupation: 'executive chef',
     signatureImg: SignatureImg,
     chefImg: ChefImg,
@@ -146,19 +146,19 @@ import {
   export const footerData = {
     contact: {
       title: 'contact location',
-      address: '3784 patterson road, #8 new york, CA 69000',
-      phone: '(201)256-3689',
+      address: 'Rumonge road, Mutambara, RN3',
+      phone: '(00)257 79960216',
     },
     hours: {
       title: 'working hours',
       program: [
         {
           days: 'monday - friday',
-          hours: '09:00 AM - 10:00 PM',
+          hours: '09:00 AM - 11:00 PM',
         },
         {
           days: 'saturday - sunday',
-          hours: '09:00 AM - 11:00 PM',
+          hours: '08:00 AM - midnight',
         },
       ],
     },
@@ -168,8 +168,8 @@ import {
         { href: '/', icon: <FaYoutube /> },
         { href: '/', icon: <FaFacebookF /> },
         { href: '/', icon: <FaInstagram /> },
-        { href: '/', icon: <FaPinterestP /> },
-        { href: '/', icon: <FaDiscord /> },
+        { href: '/', icon: <FaGlobe /> },
+        { href: '/', icon: <FaXTwitter /> },
       ],
     },
   };

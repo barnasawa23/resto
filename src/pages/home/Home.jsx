@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Hero, Menu, Reservation, Team, Testimonials } from '../../components';
+import { About, Hero, Menu, Reservation, Team } from '../../components';
 import { Footer } from '../../common';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
         <About />
         <Menu />
         <Team />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Reservation />
         <Footer />
         <div className='h-[380px] md:h-[370px]'></div>

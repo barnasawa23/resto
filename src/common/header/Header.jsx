@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { Socials, Navbar } from '../../components';
 
-import logoWhite from '../../assets/img/header/logo-white.png';
+import logoWhite from '../../assets/img/header/logo-white1.png';
 
 // import motion
 import { motion } from 'framer-motion';
@@ -133,4 +133,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
