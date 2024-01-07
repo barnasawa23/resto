@@ -63,7 +63,7 @@ const Header = () => {
   return (
     <>
       <motion.header 
-        className='bg-pink-200/20 fixed w-full max-w-[1800px]  z-50 py-4'
+        className='bg-pink-200/20 fixed w-full max-w-[1800px]  z-50 py-2'
         variants={headerVariants}
         initial='hidden'
         animate={isActive ? 'show' : ''}
@@ -107,7 +107,7 @@ const Header = () => {
               variants={fadeIn('down', 'tween', 1.2, 1.4 )}
               className='order-1 lg:order-none lg:ml-[11rem]'
             >
-              <img src={logoWhite} alt="Logo pictur" className={`${isActive ? 'w-[90px] h-[90px]' : 'w-[107px] h-[107px]'}`} />
+              <img src={logoWhite} alt="Logo pictur" className={`${isActive ? 'w-[90px] h-[80px]' : 'w-[107px] h-[105px]'}`} />
             </motion.div>
 
             {/* social::Icons */}
